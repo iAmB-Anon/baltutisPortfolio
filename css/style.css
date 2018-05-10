@@ -257,7 +257,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-section {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 
 .exp-features {
@@ -475,7 +475,7 @@ header .navbar.navbar-light .nav-link.active {
   margin: auto;
 }
 
-.top-languages .language:hover, .project:hover, .blog-entry:hover, .top-course .blog-entry:focus, .blog-entries .course:hover, .blog-entries .course:focus, .blog-entries .blog-entry:hover, .blog-entries .blog-entry:focus {
+.top-languages .language:hover, .project:hover, .blog-entry:hover, .blog-entry:focus, .blog-entries, .blog-entries .blog-entry:hover, .blog-entries .blog-entry:focus {
   opacity: .7;
 }
 
@@ -492,11 +492,6 @@ header .navbar.navbar-light .nav-link.active {
 .top-languages .language p, .project p, .blog-entry p, .blog-entries p, .blog-entries .blog-entry p {
   font-size: 13px;
   color: gray;
-}
-
-.instructor-meta {
-  margin-bottom: 10px;
-  color: #999999 !important;
 }
 
 .btn, .form-control {
@@ -523,7 +518,8 @@ textarea.form-control {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  padding: 12px 30px;
+  padding: 10px 28px;
+  border-radius: 5px;
 }
 
 .btn.btn-black {
@@ -569,14 +565,6 @@ textarea.form-control {
 .btn:hover {
   -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
-}
-
-.flaticon-custom {
-  font-size: 70px;
-}
-
-.flaticon-custom:before, .flaticon-custom:after {
-  margin-left: 0;
 }
 
 .no-nav .owl-nav {
@@ -862,28 +850,6 @@ textarea.form-control {
 
 .box.hover:hover h2, .box.hover:focus h2 {
   color: #fff;
-}
-
-.breadcrumb-custom {
-  background: none;
-  padding: 0;
-}
-
-.breadcrumb-custom li a {
-  color: #007bff;
-}
-
-.breadcrumb-custom li a:hover {
-  color: #fff;
-}
-
-.breadcrumb-custom li.active {
-  color: #fff;
-}
-
-.breadcrumb-custom li.breadcrumb-item + .breadcrumb-item:before {
-  content: "/";
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .children-info li {
