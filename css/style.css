@@ -222,35 +222,6 @@ header .navbar.navbar-light .nav-link.active {
   background: #fff;
 }
 
-.episodes .episode a {
-  color: #000;
-}
-
-.episodes .episode a:hover {
-  opacity: .7;
-}
-
-.episodes .meta {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .2em;
-  color: #cccccc;
-}
-
-.episodes .episode-number {
-  border: 2px solid #0062cc;
-  text-align: center;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  text-transform: uppercase;
-  line-height: 74px;
-  border-radius: 50%;
-  background: #007bff;
-  color: #fff;
-  font-size: 30px;
-}
-
 .site-hero-innerpage, .site-hero-innerpage .site-hero-inner {
   min-height: 550px;
   height: 50vh;
@@ -530,6 +501,7 @@ textarea.form-control {
 .btn.btn-primary {
   color: #fff;
   border-width: 2px;
+  opacity: 0.9;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -877,36 +849,6 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
-.categories li, .sidelink li {
-  position: relative;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px dotted #dee2e6;
-  style: none;
-}
-
-.categories li:last-child, .sidelink li:last-child {
-  margin-bottom: 0;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.categories li a, .sidelink li a {
-  display: block;
-}
-
-.categories li a span, .sidelink li a span {
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #ccc;
-}
-
-.categories li.active a, .sidelink li.active a {
-  color: #000;
-  font-style: italic;
-}
-
 .cover_1 {
   background-size: cover;
   background-position: center center;
@@ -1106,108 +1048,6 @@ textarea.form-control {
 
 #accordion .card .card-body {
   padding-top: 15px;
-}
-
-.testimonial {
-  font-size: 30px;
-  color: #000;
-}
-
-.media-testimonial img {
-  width: 100px;
-  border-radius: 50%;
-}
-
-.media-testimonial blockquote p {
-  font-size: 20px;
-  color: #000;
-  font-style: italic;
-}
-
-.comment-form-wrap {
-  clear: both;
-}
-
-.comment-list {
-  padding: 0;
-  margin: 0;
-}
-
-.comment-list .children {
-  padding: 50px 0 0 40px;
-  margin: 0;
-  float: left;
-  width: 100%;
-}
-
-.comment-list li {
-  padding: 0;
-  margin: 0 0 30px 0;
-  float: left;
-  width: 100%;
-  clear: both;
-  list-style: none;
-}
-
-.comment-list li .vcard {
-  width: 80px;
-  float: left;
-}
-
-.comment-list li .vcard img {
-  width: 50px;
-  border-radius: 50%;
-}
-
-.comment-list li .comment-body {
-  float: right;
-  width: calc(100% - 80px);
-}
-
-.comment-list li .comment-body h3 {
-  font-size: 20px;
-}
-
-.comment-list li .comment-body .meta {
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: .1em;
-  color: #ccc;
-}
-
-.comment-list li .comment-body .reply {
-  padding: 5px 10px;
-  background: #e6e6e6;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.comment-list li .comment-body .reply:hover {
-  color: #000;
-  background: #e3e3e3;
-}
-
-.search-form {
-  background: #f7f7f7;
-  padding: 10px;
-}
-
-.search-form .form-group {
-  position: relative;
-}
-
-.search-form .form-group input {
-  padding-right: 50px;
-}
-
-.search-form .icon {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 blockquote {
