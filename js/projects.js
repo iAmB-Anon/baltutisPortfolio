@@ -16,11 +16,11 @@ $(document).ready(function () {
       window.open("https://baltu008.github.io/GifTastic/");
   });
 
-  $('#trainScheduler').on("click", function () {
+  $('#trainSchedulerBtn').on("click", function () {
       window.open("https://baltu008.github.io/TrainScheduler/");
   });
   
-  $('#nutritionProject').on("click", function () {
+  $('#nutritionProjectBtn').on("click", function () {
       window.open("https://baltu008.github.io/nutritionProject/");
   });
 

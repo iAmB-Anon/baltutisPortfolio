@@ -443,8 +443,8 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .card-img-top {
-  height: 269px;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 .row--card {
