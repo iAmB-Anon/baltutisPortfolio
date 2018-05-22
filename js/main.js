@@ -233,6 +233,13 @@ $(document).ready(function () {
           dash function to find a restaurant near you."</p>
         <a href="https://baltu008.github.io/nutritionProject/" class="btn btn-primary" id="nutritionProject">See Project</a>`
         break;
+      case "#nodeCard":
+        html = `<img class="card-img-top rounded-top" src="images/nodeImage.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Node API</h5>
+          <p class="card-text">"Using Node.js, an application was created to find songs, movies, and tweets, using git-bash or terminal."</p>
+          <a href="https://github.com/baltu008/liri-node-app" class="btn btn-primary" id="nodeBtn">See Project</a>`
+        break;
     }
     $card.append(html)
     $("#exampleModal .row").html($card)
@@ -256,5 +263,8 @@ $(document).ready(function () {
   })
   $('#nutritionInvoke').on("click", function (event) {
     setModalContent('#nutritionCard')
+  })
+  $('#nodeInvoke').on("click", function (event) {
+    setModalContent('#nodeCard')
   })
 })

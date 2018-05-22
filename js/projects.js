@@ -24,4 +24,8 @@ $(document).ready(function () {
       window.open("https://baltu008.github.io/nutritionProject/");
   });
 
+  $('#nodeBtn').on("click", function () {
+      window.open("https://github.com/baltu008/liri-node-app");
+  })
+
 });
