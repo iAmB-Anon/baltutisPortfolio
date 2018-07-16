@@ -32,4 +32,12 @@ $(document).ready(function () {
         window.open("https://github.com/baltu008/FriendFinder/");
     });
 
+    $('#burgerGit').on("click", function () {
+        window.open("https://github.com/baltu008/burger/");
+    });
+
+    $('#volunteerGit').on("click", function () {
+        window.open("https://github.com/baltu008/Volunteers-In-Action/");
+    });
+
 });

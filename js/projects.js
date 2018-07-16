@@ -32,4 +32,12 @@ $(document).ready(function () {
         window.open("https://hidden-harbor-56635.herokuapp.com/");
     });
 
+    $('#burgerBtn').on("click", function () {
+        window.open("https://peaceful-beach-92131.herokuapp.com/");
+    });
+
+    $('#volunteerBtn').on("click", function () {
+        window.open("https://www.volunteersinaction.com/");
+    });
+
 });
