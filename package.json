@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/baltu008/baltutisPortfolio#readme",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
     "nodemon": "^1.18.2"
   }
 }

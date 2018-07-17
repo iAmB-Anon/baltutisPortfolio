@@ -730,6 +730,11 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.5);
 }
 
+footer .list-unstyled {
+  text-align: right;
+  width: 100%;
+}
+
 .blog-entry-footer .post-meta {
   color: gray;
   font-size: 15px;
