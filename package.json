@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/baltu008/baltutisPortfolio#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "nodemon": "^1.18.2"
   }
