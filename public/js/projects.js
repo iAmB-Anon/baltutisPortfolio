@@ -37,7 +37,7 @@ $(document).ready(function () {
     });
 
     $('#volunteerBtn').on("click", function () {
-        window.open("https://www.volunteersinaction.com/");
+        window.open("https://www.volunteersinaction.herokuapp.com/");
     });
 
 });
