@@ -235,7 +235,6 @@ header .navbar.navbar-light .nav-link.active {
 
 .site-section {
     padding: 4em 0;
-    position: center;
 }
 
 .exp-features {
@@ -264,6 +263,7 @@ header .navbar.navbar-light .nav-link.active {
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
+        text-align: center;
     }
 }
 
