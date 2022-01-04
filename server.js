@@ -1,8 +1,6 @@
 // Dependencies
 var express = require('express');
-var app = express();
 var server = https //ericbaltutis.herokuapp.com/;
-var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var path = require('path');
 
