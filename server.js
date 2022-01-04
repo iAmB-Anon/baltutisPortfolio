@@ -1,5 +1,8 @@
 // Dependencies
-var express= require('express');
+var express = require('express');
+var app = express();
+var server = https: //ericbaltutis.herokuapp.com/;
+    var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var path = require('path');
 
@@ -14,18 +17,18 @@ app.use(express.static('public'))
 
 // index page 
 app.get('/', function(req, res) {
-  res.render('index');
+    res.render('index');
 });
 app.get('/projects', function(req, res) {
-  res.render('projects');
+    res.render('projects');
 });
 app.get('/contact', function(req, res) {
-  res.render('contact');
+    res.render('contact');
 });
 
 var PORT = process.env.PORT || 8080;
 
 // Start server
 app.listen(PORT, function() {
-  console.log("Server is listening on PORT: " + PORT);
+    console.log("Server is listening on PORT: " + PORT);
 });
